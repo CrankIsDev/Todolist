@@ -1,0 +1,23 @@
+@import 'src/styles/vars';
+
+.form-add-task {
+  font-size: 1.5em;
+
+  ::placeholder {
+    color: $input-placeholder;
+  }
+}
+
+.form-input {
+  color: $input-text;
+  padding: 1rem;
+  background: $input-background;
+  width: 100%;
+  font-size: 0.8em;
+  border: 1px solid $input-border;
+  box-shadow: inset 0 0 $input-inset-shadow-size $input-inset-shadow-color;
+
+  &:focus {
+    box-shadow: inset 0 0 $input-inset-shadow-size $input-inset-shadow-color-focus;
+  }
+}

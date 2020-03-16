@@ -1,0 +1,14 @@
+$main-color: #0c111c;
+
+$background: scale-color($main-color, $lightness: 10%);
+
+$input-background: scale-color($main-color, $lightness: -10%); // #1c382f;
+$input-border: #183129;
+$input-inset-shadow-size: 25px;
+$input-inset-shadow-color: rgba(0,0,0,.1);
+$input-inset-shadow-color-focus: rgba(0,0,0,.5);
+$input-text: #fff;
+$input-placeholder: rgba(255, 255, 255, .5);
+
+$task-background: #eee;
+$task-border: #0c111c;

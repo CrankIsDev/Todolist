@@ -1,0 +1,25 @@
+@import 'src/styles/vars';
+
+.task {
+  background-color: $task-background;
+  border: 1px solid $task-border;
+  border-radius: 0.4em;
+  padding: .7em 1em;
+  margin: 0.3em 0;
+  input {
+    margin-right: .5em;
+  }
+  // task--done => & représente le nom de l'élement parent
+  &--done {
+    opacity: 0.5;
+    text-decoration: line-through;
+  }
+  &-fav, &-trash {
+    float: right;
+    margin: 0 .2em;
+    cursor: pointer;
+  }
+  &--fav {
+    background-color: moccasin;
+  }
+}
